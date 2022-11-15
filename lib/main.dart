@@ -1,6 +1,7 @@
-import 'package:edspert_bootcamp/application/app/contants/constants.dart';
 import 'package:edspert_bootcamp/ui/view/startup/startup_view.dart';
 import 'package:flutter/material.dart';
+
+import 'application/contants/constants.dart';
 
 void main() {
   runApp(const MyApp());

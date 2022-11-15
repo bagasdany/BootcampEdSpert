@@ -2,7 +2,7 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
-import '../../../application/app/contants/constants.dart';
+import '../../../application/contants/constants.dart';
 import '../home/home_view.dart';
 
 class SplashScreen extends StatefulWidget {

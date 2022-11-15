@@ -2,11 +2,10 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../../../application/app/contants/constants.dart';
-import '../../../application/app/helpers/bmi_calculator_helpers.dart';
-import '../component/bmi_card_component.dart';
-import '../component/button.dart';
+import '../../../application/component/bmi_card_component.dart';
+import '../../../application/component/button.dart';
+import '../../../application/contants/constants.dart';
+import '../../../application/helpers/bmi_calculator_helpers.dart';
 import 'bmi_result_view.dart';
 
 class BMIDataView extends StatefulWidget {

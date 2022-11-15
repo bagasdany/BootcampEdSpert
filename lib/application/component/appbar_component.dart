@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../application/app/contants/constants.dart';
+import '../contants/constants.dart';
 
 class AppBarComponent extends StatefulWidget {
   // String chatCount = "1";
