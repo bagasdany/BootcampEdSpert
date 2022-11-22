@@ -123,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             // ignore: prefer_const_literals_to_create_immutables
                             children: [
                               const Text(
-                                "News Item",
+                                "Book Catalogue",
                                 style: TextStyle(
                                     fontFamily: Constants.primaryFontBold,
                                     fontSize: Constants.fontSizeLg),
