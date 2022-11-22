@@ -7,4 +7,6 @@ class StringConstants {
   static const String obeseI = "Obese (Class I)";
   static const String obeseII = "Obese (Class II)";
   static const String obeseIII = "Obese (Class III)";
+
+  static const String baseUrl = "https://api.itbook.store/1.0/";
 }
