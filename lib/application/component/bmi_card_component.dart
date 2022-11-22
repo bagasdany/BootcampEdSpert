@@ -1,5 +1,6 @@
-import 'package:edspert_bootcamp/application/app/contants/constants.dart';
 import 'package:flutter/material.dart';
+
+import '../contants/constants.dart';
 
 class BmiCardComponent extends StatelessWidget {
   const BmiCardComponent({

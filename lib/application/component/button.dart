@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../application/app/contants/constants.dart';
+import '../contants/constants.dart';
 
 enum ButtonType { primary, secondary, minimal }
 

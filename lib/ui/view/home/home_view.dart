@@ -4,7 +4,8 @@ import 'package:edspert_bootcamp/ui/view/bmi/bmi_data_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../application/app/contants/constants.dart';
+import '../../../application/contants/constants.dart';
+import '../article/book_list_page.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -81,6 +82,48 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               const Text(
                                 "Try your BMI Calculator",
+                                style: TextStyle(
+                                    fontFamily: Constants.primaryFontBold,
+                                    fontSize: Constants.fontSizeLg),
+                                textAlign: TextAlign.center,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: Constants.spacing4, vertical: 0),
+                          child: SvgPicture.asset(
+                            'assets/svg/chevron_forward.svg',
+                            width: 21,
+                            height: 21,
+                            alignment: Alignment.topCenter,
+                          ))
+                    ],
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(PageRouteBuilder(
+                      pageBuilder: (_, __, ___) => const BookListPage()));
+                },
+                child: Container(
+                  margin: const EdgeInsets.only(top: Constants.spacing4),
+                  padding: const EdgeInsets.all(Constants.spacing4),
+                  color: Constants.sky.shade100,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        child: Container(
+                          child: Column(
+                            // ignore: prefer_const_literals_to_create_immutables
+                            children: [
+                              const Text(
+                                "Book Catalogue",
                                 style: TextStyle(
                                     fontFamily: Constants.primaryFontBold,
                                     fontSize: Constants.fontSizeLg),

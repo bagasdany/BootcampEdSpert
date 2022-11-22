@@ -1,8 +1,8 @@
-import 'package:edspert_bootcamp/application/app/contants/constants.dart';
-import 'package:edspert_bootcamp/ui/view/component/button.dart';
 import 'package:flutter/material.dart';
 
-import '../../../application/app/helpers/bmi_calculator_helpers.dart';
+import '../../../application/component/button.dart';
+import '../../../application/contants/constants.dart';
+import '../../../application/helpers/bmi_calculator_helpers.dart';
 
 class BMIResultView extends StatelessWidget {
   const BMIResultView({
